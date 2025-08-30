@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Smart Contract Auditor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-bg': '#0D1117',
+              'brand-surface': '#161B22',
+              'brand-border': '#30363D',
+              'brand-primary': '#58A6FF',
+              'brand-secondary': '#1F6FEB',
+              'brand-text-primary': '#C9D1D9',
+              'brand-text-secondary': '#8B949E',
+              'severity-critical': '#DA3633',
+              'severity-high': '#F0883E',
+              'severity-medium': '#D29922',
+              'severity-low': '#388BFD',
+              'severity-info': '#7D8590',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.15.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-bg text-brand-text-primary">
+    <div id="root"></div>
+  </body>
+</html>

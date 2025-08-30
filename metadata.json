@@ -1,0 +1,5 @@
+{
+  "name": "AI Smart Contract Auditor",
+  "description": "An AI-powered tool to audit smart contracts for vulnerabilities, logic errors, and gas inefficiencies. It provides detailed reports, severity categorization, and suggested code fixes to enhance security and performance before deployment.",
+  "requestFramePermissions": []
+}
